@@ -1,7 +1,7 @@
 Rails 5 Essential, Linkedlin
 12/30/2019, Mon
 
-Named scopes
+Associations
 
 #---
 1. docker-compose exec web rails g controller demo index 
