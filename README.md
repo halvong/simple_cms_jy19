@@ -1,6 +1,9 @@
 Rails 5 Essential, Linkedlin
-12/28/2019, Sun
+12/30/2019, Mon
 
+Named scopes
+
+#---
 1. docker-compose exec web rails g controller demo index 
 2. docker-compose exec web rails g migration <name>  
 3. docker-compose exec web rails g model User
@@ -11,6 +14,7 @@ Rails 5 Essential, Linkedlin
 5. docker-compose exec web rails db:migrate VERSION=0 #back to database beginning 
 6. docker-compose exec web rails db:migrate:status 
 7. docker-compose exec web rails g migration AlterUsers 
+8. docker-compose exec web rails c 
 
 
 
